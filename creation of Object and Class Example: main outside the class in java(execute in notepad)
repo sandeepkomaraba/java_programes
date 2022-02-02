@@ -1,0 +1,14 @@
+class Employee1
+{
+int id=1030;
+String name="sandeep";
+}
+class testEmployee1
+{
+public static void main(String args[])
+{
+Employee1 s1=new Employee1();
+System.out.println(s1.id);
+System.out.println(s1.name);
+}
+}
